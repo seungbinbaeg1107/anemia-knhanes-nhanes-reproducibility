@@ -1,0 +1,192 @@
+{
+  "c1_age_topcode": {
+    "knhanes_removed": 998,
+    "nhanes_removed": 320,
+    "groups": {
+      "pooled": {
+        "n_dev": 16236,
+        "events_dev": 1601,
+        "internal_oof_auc": 0.7527199326864167,
+        "published_internal": 0.765,
+        "external": {
+          "n": 5411,
+          "events": 546,
+          "auc": 0.7051495194145221,
+          "auc_se": 0.013204342814901099,
+          "auc_ci": [
+            0.6792690074973159,
+            0.7310300313317283
+          ],
+          "cal_intercept": -0.24343739655939473,
+          "cal_intercept_se": 0.13795274223036777,
+          "cal_slope": 0.9027512357949332,
+          "cal_slope_se": 0.06374068628547512
+        },
+        "published_external": 0.708,
+        "final_params": {
+          "clf__max_depth": "8",
+          "clf__min_samples_leaf": "5"
+        }
+      },
+      "male": {
+        "n_dev": 7278,
+        "events_dev": 374,
+        "internal_oof_auc": 0.8303893426115837,
+        "published_internal": 0.846,
+        "external": {
+          "n": 2433,
+          "events": 178,
+          "auc": 0.7399419198389049,
+          "auc_se": 0.026586997470408286,
+          "auc_ci": [
+            0.6878314047969046,
+            0.7920524348809052
+          ],
+          "cal_intercept": -0.6310791357205859,
+          "cal_intercept_se": 0.2155706265969133,
+          "cal_slope": 0.7509204513872747,
+          "cal_slope_se": 0.08050147468707275
+        },
+        "published_external": 0.768,
+        "final_params": {
+          "clf__max_depth": "8",
+          "clf__min_samples_leaf": "5"
+        }
+      },
+      "female": {
+        "n_dev": 8958,
+        "events_dev": 1227,
+        "internal_oof_auc": 0.6515402748299931,
+        "published_internal": 0.673,
+        "external": {
+          "n": 2978,
+          "events": 368,
+          "auc": 0.5887464800626508,
+          "auc_se": 0.015389336039780531,
+          "auc_ci": [
+            0.558583381424681,
+            0.6189095787006207
+          ],
+          "cal_intercept": -0.6827076481495853,
+          "cal_intercept_se": 0.18730407794908185,
+          "cal_slope": 0.6845046482151346,
+          "cal_slope_se": 0.10361750406764506
+        },
+        "published_external": 0.592,
+        "final_params": {
+          "clf__max_depth": "8",
+          "clf__min_samples_leaf": "2"
+        }
+      }
+    },
+    "minutes": 4.0
+  },
+  "c2_weighted_development": {
+    "note": "Random forest refit with KNHANES examination weights as observation weights. Hyperparameter selection kept the unweighted inner AUROC, so only the fit is reweighted.",
+    "groups": {
+      "pooled": {
+        "internal_oof_auc_unweighted": 0.763696781368739,
+        "internal_oof_auc_weighted": 0.7773751763054779,
+        "published_internal": 0.765,
+        "weighted_sensitivity_threshold": 0.0813538624762824,
+        "weighted_sensitivity": 0.9008683013044657,
+        "weighted_specificity": 0.4803121947169012,
+        "weighted_referred_fraction": 0.5557270197147157,
+        "external": {
+          "n": 5731,
+          "events": 614,
+          "auc": 0.7087683049389764,
+          "auc_se": 0.011082413989438563,
+          "auc_ci": [
+            0.6870467735196768,
+            0.7304898363582759
+          ],
+          "cal_intercept": -0.3891608841710655,
+          "cal_intercept_se": 0.09312876378030062,
+          "cal_slope": 0.8314906881437744,
+          "cal_slope_se": 0.045621764516816835
+        },
+        "published_external": 0.708,
+        "final_params": {
+          "clf__max_depth": "8",
+          "clf__min_samples_leaf": "2"
+        }
+      },
+      "male": {
+        "internal_oof_auc_unweighted": 0.8454849791227604,
+        "internal_oof_auc_weighted": 0.8387249145629389,
+        "published_internal": 0.846,
+        "weighted_sensitivity_threshold": 0.014495683381558632,
+        "weighted_sensitivity": 0.9060558115745253,
+        "weighted_specificity": 0.5045404984625186,
+        "weighted_referred_fraction": 0.5131648644218538,
+        "external": {
+          "n": 2583,
+          "events": 218,
+          "auc": 0.7695524308357898,
+          "auc_se": 0.019844832144126297,
+          "auc_ci": [
+            0.7306565598333022,
+            0.8084483018382774
+          ],
+          "cal_intercept": -0.5774262015635823,
+          "cal_intercept_se": 0.16655123526432822,
+          "cal_slope": 0.747286965410575,
+          "cal_slope_se": 0.05585429877096726
+        },
+        "published_external": 0.768,
+        "final_params": {
+          "clf__max_depth": "8",
+          "clf__min_samples_leaf": "2"
+        }
+      },
+      "female": {
+        "internal_oof_auc_unweighted": 0.6724660175892778,
+        "internal_oof_auc_weighted": 0.6531145179812623,
+        "published_internal": 0.673,
+        "weighted_sensitivity_threshold": 0.09614560584450361,
+        "weighted_sensitivity": 0.9000028697281974,
+        "weighted_specificity": 0.20204816695319847,
+        "weighted_referred_fraction": 0.8128594361313389,
+        "external": {
+          "n": 3148,
+          "events": 396,
+          "auc": 0.5878097700804319,
+          "auc_se": 0.02205070423731299,
+          "auc_ci": [
+            0.5445903897752984,
+            0.6310291503855654
+          ],
+          "cal_intercept": -0.7879418747401548,
+          "cal_intercept_se": 0.2002235466327694,
+          "cal_slope": 0.6372337596411665,
+          "cal_slope_se": 0.12373380870255302
+        },
+        "published_external": 0.592,
+        "final_params": {
+          "clf__max_depth": "8",
+          "clf__min_samples_leaf": "2"
+        }
+      }
+    },
+    "minutes": 4.0
+  },
+  "c3_development_bootstrap_male": {
+    "B": 100,
+    "median": 0.8412259311492707,
+    "ci_low": 0.8191596957007365,
+    "ci_high": 0.85901417689929,
+    "sd": 0.01073562057602626,
+    "published_conditional_point": 0.846,
+    "minutes": 48.2
+  },
+  "c3_development_bootstrap_female": {
+    "B": 100,
+    "median": 0.663851106900663,
+    "ci_low": 0.6460878694529277,
+    "ci_high": 0.6832070183559467,
+    "sd": 0.009859332863526192,
+    "published_conditional_point": 0.673,
+    "minutes": 67.1
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "method": "Stratified delete-one-PSU jackknife using SDMVSTRA and SDMVPSU; the retained PSU(s) in each affected stratum receive m/(m-1) weight.",
+  "number_of_strata": 15,
+  "number_of_psus": 30,
+  "estimates": {
+    "auc": {
+      "estimate": 0.7680429941397852,
+      "delete1_psu_se": 0.022943462627413768,
+      "normal_95ci": [
+        0.7230738073900542,
+        0.8130121808895161
+      ]
+    },
+    "calibration_intercept": {
+      "estimate": -0.5155370361852957,
+      "delete1_psu_se": 0.17333020101739824,
+      "normal_95ci": [
+        -0.8552642301793962,
+        -0.1758098421911951
+      ]
+    },
+    "calibration_slope": {
+      "estimate": 0.7841996005383944,
+      "delete1_psu_se": 0.0635279692898675,
+      "normal_95ci": [
+        0.6596847807302542,
+        0.9087144203465347
+      ]
+    },
+    "development_target_sensitivity_90_sensitivity": {
+      "estimate": 0.8049847833682378,
+      "delete1_psu_se": 0.032863547113316655,
+      "normal_95ci": [
+        0.7405722310261371,
+        0.8693973357103384
+      ]
+    },
+    "development_target_sensitivity_90_specificity": {
+      "estimate": 0.5283892539536754,
+      "delete1_psu_se": 0.019322518993901045,
+      "normal_95ci": [
+        0.49051711672562937,
+        0.5662613911817215
+      ]
+    },
+    "development_target_sensitivity_90_ppv": {
+      "estimate": 0.09497107733967779,
+      "delete1_psu_se": 0.009447644482700038,
+      "normal_95ci": [
+        0.07645369415358572,
+        0.11348846052576986
+      ]
+    },
+    "development_target_sensitivity_90_npv": {
+      "estimate": 0.9778131661396651,
+      "delete1_psu_se": 0.005227578673537272,
+      "normal_95ci": [
+        0.967567111939532,
+        0.9880592203397981
+      ]
+    },
+    "development_target_specificity_90_sensitivity": {
+      "estimate": 0.43598297628374705,
+      "delete1_psu_se": 0.04291366382441088,
+      "normal_95ci": [
+        0.35187219518790175,
+        0.5200937573795924
+      ]
+    },
+    "development_target_specificity_90_specificity": {
+      "estimate": 0.9129445897389795,
+      "delete1_psu_se": 0.008463167457304233,
+      "normal_95ci": [
+        0.8963567815226632,
+        0.9295323979552959
+      ]
+    },
+    "development_target_specificity_90_ppv": {
+      "estimate": 0.23541099427067858,
+      "delete1_psu_se": 0.028350535216594724,
+      "normal_95ci": [
+        0.1798439452461529,
+        0.2909780432952042
+      ]
+    },
+    "development_target_specificity_90_npv": {
+      "estimate": 0.9634082579900334,
+      "delete1_psu_se": 0.0052248656447065195,
+      "normal_95ci": [
+        0.9531675213264086,
+        0.9736489946536582
+      ]
+    }
+  }
+}

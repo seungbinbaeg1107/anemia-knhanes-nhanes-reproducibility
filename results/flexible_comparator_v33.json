@@ -1,0 +1,55 @@
+{
+  "external_auroc_contrasts": {
+    "random_forest_minus_flexible_logistic": {
+      "estimate": 0.014365744173230555,
+      "ci": [
+        -0.002164332750860816,
+        0.030895821097321925
+      ]
+    },
+    "random_forest_minus_linear_logistic": {
+      "estimate": 0.1085051957424652,
+      "ci": [
+        0.07825805443233247,
+        0.13875233705259793
+      ]
+    },
+    "flexible_logistic_minus_linear_logistic": {
+      "estimate": 0.09413945156923464,
+      "ci": [
+        0.071278031783686,
+        0.11700087135478329
+      ]
+    }
+  },
+  "flexible_best_params": {
+    "clf__C": "0.3",
+    "clf__l1_ratio": "1.0"
+  },
+  "linear_best_params": {
+    "clf__C": "0.03",
+    "clf__l1_ratio": "1.0"
+  },
+  "flexible_outer_fold_params": [
+    {
+      "clf__C": "0.3",
+      "clf__l1_ratio": "1.0"
+    },
+    {
+      "clf__C": "0.3",
+      "clf__l1_ratio": "1.0"
+    },
+    {
+      "clf__C": "0.3",
+      "clf__l1_ratio": "1.0"
+    },
+    {
+      "clf__C": "0.3",
+      "clf__l1_ratio": "1.0"
+    },
+    {
+      "clf__C": "0.3",
+      "clf__l1_ratio": "1.0"
+    }
+  ]
+}

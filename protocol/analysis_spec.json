@@ -1,0 +1,21 @@
+{
+  "outcome": "anemia, WHO sex-specific hemoglobin thresholds (<13 g/dL men, <12 g/dL nonpregnant women)",
+  "development": {"survey": "KNHANES", "cycles": "2019-2021", "n": 17234, "events": 1925},
+  "external": {"survey": "NHANES", "cycles": "2021-08 to 2023-08", "n": 5731, "events": 614},
+  "locked_historical": {"survey": "NHANES", "cycles": "2017-2018", "n": 2419, "events": 206},
+  "predictors": ["age", "bmi", "waist_height_ratio", "creatinine_raw", "educ_cat",
+                 "kidney_disease", "thyroid_disease", "rheumatic_disease",
+                 "current_smoker", "monthly_drinker"],
+  "pooled_model_adds": "sex",
+  "focal_model": "random forest, 500 trees",
+  "cross_validation": {"outer": 5, "inner": 3, "grouping": "primary sampling unit",
+                       "stratified": true},
+  "hyperparameter_grid": {"max_depth": [8, null], "min_samples_leaf": [2, 5]},
+  "imputation": "median, fitted inside training folds and transported unchanged to the external cohort",
+  "external_estimand": "survey-weighted, stratified delete-one-PSU jackknife",
+  "internal_intervals": "conditional fixed-prediction cluster bootstrap; excludes development uncertainty",
+  "development_bootstrap_replicates": 500,
+  "operating_points": {"sensitivity_oriented": 0.0900230, "specificity_oriented": 0.1831967},
+  "primary_analysis": "pooled population",
+  "exploratory": ["sex-stratified models", "male worked example"]
+}

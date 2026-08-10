@@ -1,0 +1,221 @@
+{
+  "repository": "anemia-knhanes-nhanes-reproducibility",
+  "files": {
+    ".gitignore": {
+      "bytes": 44,
+      "sha256": "06aefde5f33f8be272b877d0bd317ee0a5cb8633d87b70dd9fb8fa4570d0b5a5"
+    },
+    "data/README.md": {
+      "bytes": 701,
+      "sha256": "3a347cc418aa5ede7bf333f1ef284524a7d1d5fc23fdfca649fc306b57bf7206"
+    },
+    "figures/Figure_1.jpg": {
+      "bytes": 507508,
+      "sha256": "e5ba0a6cf84fe3b435fa4a1683cfa4eb97f282a7a035b457fc488f37511933b6"
+    },
+    "figures/Figure_2.jpg": {
+      "bytes": 492261,
+      "sha256": "1221df29a468263f4ebdc613929ff531b712164c03cf6db2ef60eec53f87b600"
+    },
+    "figures/Figure_3.jpg": {
+      "bytes": 389704,
+      "sha256": "6c21f66eb7cd990d86a993c1b9908581ca4871038f4bff8aee9472c48236a0f0"
+    },
+    "figures/Figure_4.jpg": {
+      "bytes": 1118279,
+      "sha256": "04667487508bbaeb853bcfdce755a08b289eb52817b0106d5d91e4ea2d56c18e"
+    },
+    "figures/Figure_5.jpg": {
+      "bytes": 380476,
+      "sha256": "b89aa1f7b7e80f1e0e1dc2043f1ba119c866a7584f59a29e1c6f63bf01209314"
+    },
+    "figures/Figure_6.jpg": {
+      "bytes": 400848,
+      "sha256": "8269af40aaecb6f1163eed3b199295c35bb9e21a8d08a596eea6486369a511e5"
+    },
+    "figures/Figure_7.jpg": {
+      "bytes": 510208,
+      "sha256": "42152e6a29106a66f3cf93ac1cec3af99b5b78f1d9389b464410b1ff9d3881d3"
+    },
+    "LICENSE": {
+      "bytes": 1068,
+      "sha256": "9f1abe28a25b5f6f95c58a81a647de3fa72ff6388d228c59bddd079255709989"
+    },
+    "protocol/analysis_spec.json": {
+      "bytes": 1422,
+      "sha256": "ac360d6ffc389ec64d204eeb6ebb70c414efdabb062319c8818d07c544e7ace3"
+    },
+    "protocol/model_comparison_notes.md": {
+      "bytes": 1170,
+      "sha256": "4572f613c6f690bb8e7b18d5d9785499a42ec7363dcc42f35edab8a1af143027"
+    },
+    "protocol/prespecified_analysis_plan.md": {
+      "bytes": 2761,
+      "sha256": "dadf17e8c0993c61a9f7d2716509d57db20ffa88d3915be72c0b74313178c271"
+    },
+    "protocol/sensitivity_analysis_notes.md": {
+      "bytes": 1696,
+      "sha256": "f4ccd63e2d256de255d3f63b388152754bb3ceb59b4eed10b9d2dc4d631d921c"
+    },
+    "protocol/variable_harmonization_audit.md": {
+      "bytes": 1901,
+      "sha256": "db886fd16584d164411c1a25e09b5fcd91748726c9a8afbb09cbaa0d7af44575"
+    },
+    "README.md": {
+      "bytes": 3349,
+      "sha256": "735eda782798ad141bee7ebdbd0bfb98ac0afa4c4d02aa1d6ac286e3e60f2f41"
+    },
+    "requirements.txt": {
+      "bytes": 99,
+      "sha256": "ce86e45aeb04626bbc8a9d5303e356db3eea8a978ac1135cf17a05c66e44e7dd"
+    },
+    "results/development_bootstrap_female_v39.csv": {
+      "bytes": 11852,
+      "sha256": "2636303be3585f06eaec3060b75e1f2de47c70f13e2487131bc2d1d26595ebfb"
+    },
+    "results/development_bootstrap_male_v39.csv": {
+      "bytes": 11850,
+      "sha256": "3f1be63b84dbac17cb8bc8387c41155f065ab165ad5dc241ac3b07c3531cfb31"
+    },
+    "results/development_bootstrap_pooled_v34.csv": {
+      "bytes": 11845,
+      "sha256": "f709b3e7e335be8477e0f7bdc5170e85bd15f34e04145839243ebd5e03e49085"
+    },
+    "results/development_uncertainty_v34.json": {
+      "bytes": 4395,
+      "sha256": "0cc439cc341ea4a8f19f6b13a818485de2c45dfbbfe081b5ed2063362a624091"
+    },
+    "results/flexible_comparator_qa_v33.json": {
+      "bytes": 111,
+      "sha256": "ab616ddba80cbaab227f6c4e735409ae344f388b888340475a00cdbea2af0584"
+    },
+    "results/flexible_comparator_v33.csv": {
+      "bytes": 821,
+      "sha256": "ea81b70e70dabbd12adb90899cc4c3f5af3e8ce23a284982cdbff132ff1ac4a9"
+    },
+    "results/flexible_comparator_v33.json": {
+      "bytes": 1133,
+      "sha256": "1156fbc43d9e59c2822011cfe65ab72271cb8cce810119b6245351fe0b99fc96"
+    },
+    "results/missingness_by_source_year_sex_v6.csv": {
+      "bytes": 4708,
+      "sha256": "a1a86913ab49b5eacae898b5a7ee6bd1f9523410fdcc589e12c39b13f75cd45b"
+    },
+    "results/pooled_comparative_dca_v41.csv": {
+      "bytes": 3228,
+      "sha256": "c9289f80e9c22cb3de466b7a7faeb77275be4bb0686b1835fa27e4010d2eb086"
+    },
+    "results/remaining_analyses_v35.json": {
+      "bytes": 11315,
+      "sha256": "2bc85111bacce7314fa40dff7c5bdbd4c54fdacf78eb961f2f6ca3e057589f29"
+    },
+    "results/review_c_analyses_v39.json": {
+      "bytes": 6309,
+      "sha256": "223c977023432410cf15378820f7198a2d644cd209b60c50ffefd25cd5834afb"
+    },
+    "results/rf_external_survey_jackknife_v6.json": {
+      "bytes": 2747,
+      "sha256": "1e98a7b2726bf818d39a8624b9b502dde1a8351f4d6dfe27feb938c8eee76944"
+    },
+    "results/rf_permutation_importance_summary_v6.csv": {
+      "bytes": 1055,
+      "sha256": "b59b3db791c10ca2e4d80f39df77667156e6209c9c1457a074bf9ac38f5c73eb"
+    },
+    "results/sex_contrast_external_v31.csv": {
+      "bytes": 4696,
+      "sha256": "57cbc52db2da425346a800454c8955cc189510bf47451c8a55a834229468f640"
+    },
+    "results/sex_contrast_qa_v31.json": {
+      "bytes": 152,
+      "sha256": "b2518421439a149269ce8e11d62c54392e25368cce05e15f40788533a475d2f9"
+    },
+    "results/sex_group_development_predictions_v8.csv": {
+      "bytes": 2378587,
+      "sha256": "857a1b715bad0abfa40810b134905a908ca6612f18279d786249c8a50b8cacbb"
+    },
+    "results/sex_group_external_calibration_v8.csv": {
+      "bytes": 1734,
+      "sha256": "a14f2a69d8c0a98f1054a11fd17c08df20ef23be41e86a7dd185e66a9f66eeb9"
+    },
+    "results/sex_group_external_delete1_psu_v8.csv": {
+      "bytes": 13229,
+      "sha256": "47d297ad11dd0cb5a6143d1aa3582796f0df48d79319779e9dba7203fe9bd47b"
+    },
+    "results/sex_group_external_predictions_v8.csv": {
+      "bytes": 718328,
+      "sha256": "0a4e417b7a08ecd3678af20d81a4662a3cec91f5062e3db8bfd6586d6ad8b9ab"
+    },
+    "results/sex_group_operating_points_v8.csv": {
+      "bytes": 6964,
+      "sha256": "21067a933ed9bf67c8be2739d98070c4607400528a5dea00f19e671e5932c04f"
+    },
+    "results/v6_sex_stratified_model_results.csv": {
+      "bytes": 1340,
+      "sha256": "2530c31d8413cd771faca4819371590fce749d3641ee565d2378394df403e2fc"
+    },
+    "scripts/build_dca_figures_v41.py": {
+      "bytes": 2733,
+      "sha256": "dd695eccb1e915e3f821e1da5f4b0e20f748a4cf186008c37247aea79647ed7f"
+    },
+    "scripts/build_figure3_sex_transportability_v38.py": {
+      "bytes": 4011,
+      "sha256": "f695d734002c4a25905946bb92d7e6d06c6cf0bf25a71d0e2a2ba20303622d05"
+    },
+    "scripts/build_figure7_permutation_importance_v38.py": {
+      "bytes": 4206,
+      "sha256": "1ca69cf4090b16da1c22ec1caf859a40ca4b98ea06d76097e31fcd5e8dd26a16"
+    },
+    "scripts/build_workflow_figure_v38.py": {
+      "bytes": 5388,
+      "sha256": "2e9978e14cf1c34b489ce4f61d5668193d876e3be2411de32906cc166c36b080"
+    },
+    "scripts/dev_uncertainty_v34.py": {
+      "bytes": 7563,
+      "sha256": "f37c4ef487ed0c95cc96e2199d309a5d2cc5ef76fa6b75b2b5018d1e2c0cd77c"
+    },
+    "scripts/extend_bootstrap_v41.py": {
+      "bytes": 6048,
+      "sha256": "b0350ca104b230e4a3c614684b6c39ad68c6e8ca8f3fd356eb59dbdbf3f0c073"
+    },
+    "scripts/final_analysis_freeze_v6.py": {
+      "bytes": 19682,
+      "sha256": "dfec19c8af403e2f9f3c6455a5c6f1ec71d2d224dc8c641cb0599b54e6ccb1d9"
+    },
+    "scripts/flexible_comparator_v33.py": {
+      "bytes": 13685,
+      "sha256": "3b4af28b4432bf76156641cba96e2bda1b87bbadf40fd66716035eedcc3151f7"
+    },
+    "scripts/flexible_dca_v41.py": {
+      "bytes": 7392,
+      "sha256": "8bc47c9330d088455dea4223e7056ddd836f5944846e4369c5a34a75660b52a3"
+    },
+    "scripts/missing_data_transport_v35.py": {
+      "bytes": 8098,
+      "sha256": "6caa1867d8dbc8000c2ee7d6b8a50091e748012674e38a3f4cdfd28168b4a498"
+    },
+    "scripts/model_benchmark_grouped_v6.py": {
+      "bytes": 5950,
+      "sha256": "e7d695b33dcd6ba1079943f98d5983da32efafd9daba6c91328243b9843898a3"
+    },
+    "scripts/remaining_analyses_v35.py": {
+      "bytes": 20666,
+      "sha256": "bed556613194bb2c3d4f7c977a3219e427f50a1882fa1d10b371daf03251c07d"
+    },
+    "scripts/reverify_from_raw_v45.py": {
+      "bytes": 6367,
+      "sha256": "ae48996a61e4eeb411f7c9777bd5141caf9b45fb8adfd90c5d26080b6e8af83e"
+    },
+    "scripts/review_c_analyses_v39.py": {
+      "bytes": 13638,
+      "sha256": "61ae3322cb941c7884e41282bfc2954cce71c7b151a3eeea903e65f15a9f0c43"
+    },
+    "scripts/sex_contrast_and_recalibration_v31.py": {
+      "bytes": 10441,
+      "sha256": "45cdfd0e481d7dd28b29dce25f09d77b4a65d4dc3b0436086be621733fe38660"
+    },
+    "scripts/verify_new_analyses_v45.py": {
+      "bytes": 4290,
+      "sha256": "a1c831fdc42359cd9b75a02e00447979056011ab3114848bef957efadf4e44ec"
+    }
+  }
+}
